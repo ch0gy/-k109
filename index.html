@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cloud Collage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to top, #e0f7fa, #ffffff);
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #0077b6;
+    }
+    .collage {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      width: 300px;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin-top: 0.5rem;
+      color: #0096c7;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌩️ Cloud Collage 🌩️</h1>
+  <div class="collage">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Cloud_computing_icon.svg" alt="Cloud Icon">
+      <h3>Was ist Cloud Computing?</h3>
+      <p>Cloud Computing bedeutet, IT-Ressourcen wie Server, Speicher und Datenbanken über das Internet bereitzustellen.</p>
+    </div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Public_cloud.svg/512px-Public_cloud.svg.png" alt="Public Cloud">
+      <h3>Cloud-Typen</h3>
+      <p>Public Cloud (z.B. AWS), Private Cloud (nur für ein Unternehmen), Hybrid Cloud (Kombi aus beidem).</p>
+    </div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Cloud_services.svg" alt="Service-Modelle">
+      <h3>Service-Modelle</h3>
+      <p>IaaS (z.B. Server), PaaS (z.B. App-Plattformen), SaaS (z.B. Google Drive, Microsoft 365).</p>
+    </div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Cloud_Security.png" alt="Cloud Security">
+      <h3>Sicherheit in der Cloud</h3>
+      <p>Wichtig: Verschlüsselung, Backups, Zugriffsrechte, Datenschutz (z. B. DSGVO beachten).</p>
+    </div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Docker-logo.png" alt="Docker Logo">
+      <h3>Cloud & Docker</h3>
+      <p>Container-Technologien wie Docker machen Apps portabel – ideal für Cloud-Deployments.</p>
+    </div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cloud_storage_icon.svg/2048px-Cloud_storage_icon.svg.png" alt="Cloud Speicher">
+      <h3>Beispiele</h3>
+      <p>Dropbox, Google Drive, iCloud, OneDrive – alles Cloud-Dienste zum Speichern von Daten online.</p>
+    </div>
+  </div>
+</body>
+</html>
